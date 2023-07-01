@@ -34,11 +34,7 @@ body{
     color: white;
     font-family: 'Bai Jamjuree', sans-serif;
 }
-header{
-    padding: 6rem 8rem;
-    padding-top: 4rem;
-   
-}
+
 
 
 #hamburger-icon {
@@ -149,6 +145,13 @@ nav{
     justify-content: space-between;
     width: 30rem;
 
+}
+
+
+header{
+    padding: 6rem 8rem;
+    padding-top: 4rem;
+   
 }
 
 .landing-page{

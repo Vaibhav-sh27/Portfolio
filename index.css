@@ -518,6 +518,72 @@ footer{
 
 
 
+.form{
+    padding: 2.5rem 8rem;
+}
+.form-git{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8rem;
+}
+input{
+    display: block;
+    width: 100%;
+    background-color: #1C1C22;
+    border: none;
+    padding: 1rem 2rem;
+    position: relative;
+    color: white;
+   
+}
+textarea{
+    background-color: #1C1C22;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    
+    
+}
+label{
+    padding: 1rem 0rem;
+    display: inline-block;
+}
+form{
+    display: flexbox;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    box-sizing: border-box;
+   
+   
+}
+.form-info h1{
+    background: linear-gradient(90deg, rgba(177,108,234,1) 8%, rgba(255,94,105,1) 30%, rgba(255,123,92,1) 50%, rgba(255,168,75,1) 80%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 70px;
+    font-weight: 900;
+    padding-bottom: 1.5rem;
+}
+.form-info p{
+    padding-right: 9rem;
+    padding-bottom: 2rem;
+}
+.form-info .links{
+    width: 25rem;
+}
+form .buttons{
+    padding-top: 1.5rem;
+}
+.form-foot h1{
+    padding-right: 2rem;
+}
+
+
+
+
 
 
 
@@ -878,6 +944,74 @@ footer{
     }
     .foot-info h1{
         padding: 0px 10px;
+    }
+
+
+
+
+    .form{
+        padding: 2.5rem 1rem;
+    }
+    .form-git{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 8rem;
+    }
+    input{
+        display: block;
+        width: 100%;
+        background-color: #1C1C22;
+        border: none;
+        padding: 1rem 1rem;
+        position: relative;
+        color: white;
+        box-sizing: border-box;
+       
+       
+    }
+    textarea{
+        background-color: #1C1C22;
+        width: 100%;
+        border: none;
+        color: white;
+        padding: 1rem 1rem;
+        box-sizing: border-box;
+        
+    }
+    label{
+        padding: 1rem 0rem;
+        display: inline-block;
+    }
+    form{
+        display: flexbox;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        box-sizing: border-box;
+       
+       
+    }
+    .form-info h1{
+        background: linear-gradient(90deg, rgba(177,108,234,1) 8%, rgba(255,94,105,1) 30%, rgba(255,123,92,1) 50%, rgba(255,168,75,1) 80%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 45px;
+        font-weight: 900;
+        padding-bottom: 1.5rem;
+    }
+    .form-info p{
+        padding-right: 4rem;
+        padding-bottom: 2rem;
+    }
+    .form-info .links{
+        width: 18rem;
+    }
+    form .buttons{
+        padding-top: 1.5rem;
+    }
+    .form-foot h1{
+        padding-right: 1rem;
     }
     
   }
@@ -1242,8 +1376,74 @@ footer{
     .foot-info h1{
         padding: 0px 10px;
     }
+
+
+
+    .form{
+        padding: 2.5rem 2rem;
+    }
+    .form-git{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 8rem;
+    }
+    input{
+        display: block;
+        width: 100%;
+        background-color: #1C1C22;
+        border: none;
+        padding: 1rem 2rem;
+        position: relative;
+        color: white;
+        box-sizing: border-box;
+    }
+    textarea{
+        background-color: #1C1C22;
+        width: 100%;
+        border: none;
+        color: white;
+        padding: 1rem 2rem;
+        box-sizing: border-box;
+    }
+    label{
+        padding: 1rem 0rem;
+        display: inline-block;
+    }
+    form{
+        display: flexbox;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        box-sizing: border-box;
+       
+       
+    }
+    .form-info h1{
+        background: linear-gradient(90deg, rgba(177,108,234,1) 8%, rgba(255,94,105,1) 30%, rgba(255,123,92,1) 50%, rgba(255,168,75,1) 80%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 55px;
+        font-weight: 900;
+        padding-bottom: 1.5rem;
+    }
+    .form-info p{
+        padding-right: 6rem;
+        padding-bottom: 2rem;
+    }
+    .form-info .links{
+        width: 20rem;
+    }
+    form .buttons{
+        padding-top: 1.5rem;
+    }
+    .form-foot h1{
+        padding-right: 1rem;
+    }
     
   }
+    
+  
 
 
 
@@ -1611,6 +1811,72 @@ footer{
     .foot-info h1{
         padding: 0px 10px;
     }
+
+
+
+
+
+    .form{
+        padding: 2.5rem 3rem;
+    }
+    .form-git{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 8rem;
+    }
+    input{
+        display: block;
+        width: 100%;
+        background-color: #1C1C22;
+        border: none;
+        padding: 1rem 2rem;
+        position: relative;
+        color: white;
+        box-sizing: border-box;
+    }
+    textarea{
+        background-color: #1C1C22;
+        width: 100%;
+        border: none;
+        color: white;
+        padding: 1rem 2rem;
+        box-sizing: border-box;
+    }
+    label{
+        padding: 1rem 0rem;
+        display: inline-block;
+    }
+    form{
+        display: flexbox;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        box-sizing: border-box;
+       
+       
+    }
+    .form-info h1{
+        background: linear-gradient(90deg, rgba(177,108,234,1) 8%, rgba(255,94,105,1) 30%, rgba(255,123,92,1) 50%, rgba(255,168,75,1) 80%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 65px;
+        font-weight: 900;
+        padding-bottom: 1.5rem;
+    }
+    .form-info p{
+        padding-right: 15rem;
+        padding-bottom: 2rem;
+    }
+    .form-info .links{
+        width: 25rem;
+    }
+    form .buttons{
+        padding-top: 1.5rem;
+    }
+    .form-foot h1{
+        padding-right: 1rem;
+    }
 }
 
 
@@ -1972,5 +2238,70 @@ footer{
     }
     .foot-info h1{
         padding: 0px 10px;
+    }
+
+
+
+
+    .form{
+        padding: 2.5rem 4rem;
+    }
+    .form-git{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 8rem;
+    }
+    input{
+        display: block;
+        width: 100%;
+        background-color: #1C1C22;
+        border: none;
+        padding: 1rem 2rem;
+        position: relative;
+        color: white;
+        box-sizing: border-box;
+    }
+    textarea{
+        background-color: #1C1C22;
+        width: 100%;
+        border: none;
+        color: white;
+        padding: 1rem 2rem;
+        box-sizing: border-box;
+    }
+    label{
+        padding: 1rem 0rem;
+        display: inline-block;
+    }
+    form{
+        display: flexbox;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        box-sizing: border-box;
+       
+       
+    }
+    .form-info h1{
+        background: linear-gradient(90deg, rgba(177,108,234,1) 8%, rgba(255,94,105,1) 30%, rgba(255,123,92,1) 50%, rgba(255,168,75,1) 80%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 65px;
+        font-weight: 900;
+        padding-bottom: 1.5rem;
+    }
+    .form-info p{
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+    .form-info .links{
+        width: 23rem;
+    }
+    form .buttons{
+        padding-top: 1.5rem;
+    }
+    .form-foot h1{
+        padding-right: 1rem;
     }
 }

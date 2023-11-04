@@ -92,12 +92,44 @@ body{
 
 
 
+
+
+
+.mode-m{
+    display: none;
+}
+.mode{
+    display: flex;
+    height: 35px; 
+    width: auto; 
+    background-color: white; 
+    cursor: pointer;
+    border-radius: 20px;
+    right: 20px;
+    top: 95px;
+    position: fixed;
+    transform: scale(1);
+    transition: all  ease 0.8s;
+    z-index: 1;
+    
+}
+.mode:hover{
+    background: linear-gradient(90deg, rgba(177,108,234,1) 0%, rgba(255,94,105,1) 33.33%, rgba(255,123,92,1) 66.6%, rgba(255,168,75,1) 100%);
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
 .navbar{
     padding: 0rem 8rem;
     position: sticky;
     top: 0px;
     background-color: #161513;
-    z-index: 1;
+    z-index: 2 !important;
 }
 .nav{
     display: flex;
@@ -131,14 +163,6 @@ nav a{
 .logo{
     font-family: 'Foldit', cursive;
     font-size: 50px;
-}
-.nav img{
-    width: 6rem;
-    height: 6rem;
-    display: flex;
-    justify-content: left;
-  
-    border-radius: 50%;
 }
 nav{
     display: flex;
@@ -256,6 +280,7 @@ p{
 .cd{
     font-size: 30px;
     border-top-style: solid;
+    border-color:white;
     padding: 30px 10px;
     position: relative;
 }
@@ -583,6 +608,14 @@ form .buttons{
 .form-foot h1{
     padding-right: 2rem;
 }
+.sub{
+    transform: scale(1);
+    transition: all 0.3s ease;
+    padding-right: 10px;
+}
+.sub:hover{
+    transform: scale(1.1);
+}
 
 
 
@@ -623,6 +656,27 @@ form .buttons{
         top: 0px;
         background-color: #161513;
         z-index: 1;
+    }
+    .mode-m{
+        display: flex;
+        position: absolute;
+        height: 35px; 
+        width: auto; 
+        background-color: white; 
+        cursor: pointer;
+        border-radius: 20px;
+        right: 70px;
+        transform: scale(1);
+        transition: all  ease 0.8s;
+        z-index: 1;
+    }
+    .mode{
+        display: none;
+        
+    }
+    .mode-m:hover{
+        background: linear-gradient(90deg, rgba(177,108,234,1) 0%, rgba(255,94,105,1) 33.33%, rgba(255,123,92,1) 66.6%, rgba(255,168,75,1) 100%);
+        transform: scale(1.3);
     }
 
 
@@ -2307,4 +2361,86 @@ form .buttons{
     .form-foot h1{
         padding-right: 1rem;
     }
+}
+
+
+@media(prefers-color-scheme: dark){
+    body{
+        background-color: #161513 !important;
+    }
+    h1{
+        color: white;
+    }
+    
+}
+
+@media(prefers-color-scheme: light){
+    *::-webkit-scrollbar-thumb {
+        background-color: rgb(188, 188, 188);
+    }
+    *::-webkit-scrollbar-track {
+        background: rgb(255 255 255 / 60%);
+      }
+    body{
+        background-color: #eaebed !important;
+    }
+    h1{
+        color: black;
+    }
+    #hamburger-icon div{
+        background-color: black;
+    }
+    .open .mobile-menu{
+        background-color: #eaebed;
+    }
+    .show{
+        background-color: white;
+    }
+    .Procards{
+        background-color: white;
+    }
+    .info h1{
+        color: white;
+    }
+    .about{
+        background-color: white;
+    }
+    .navbar{
+        background-color: #eaebed;
+        /* color: black; */
+    }
+    .navbar a{
+        color: black;
+    }
+    .lts{
+        background-color: black;
+        color: white !important;
+    }
+    .git{
+        background-color: black;
+        color: white !important;
+    }
+    .vaw{
+        background-color: white;
+        color: black !important;
+        border: 1.5px solid black !important;
+    }
+    .vaw:hover{
+        color: white !important;
+    }
+    .cd{
+        border-color: black;
+    }
+
+
+    label{
+        color: black;
+    }
+    input{
+        background-color: white;
+    }
+    textarea{
+        background-color: white;
+    }
+    
 }

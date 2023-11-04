@@ -2438,9 +2438,11 @@ form .buttons{
     }
     input{
         background-color: white;
+        color: black;
     }
     textarea{
         background-color: white;
+        color: black;
     }
     
 }
